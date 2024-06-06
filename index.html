@@ -15,7 +15,7 @@
 
   <!-- Google Fonts -->
   <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -27,7 +27,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
 
 </head>
 
@@ -43,37 +42,18 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li class="dropdown"><a href="#"><span>Who We Are</span> <i class="bi bi-chevron-right"></i></a>
-            <ul>
-              <li><a href="#team">Our Team</a></li>
-              <li><a href="#core-values">Core Values</a></li>
-            </ul>
+          <li class="dropdown"><a href="aboutus.html"><span>Who We Are</span> <i class="bi bi-chevron-right"></i></a>
           </li>
-          <li class="dropdown"><a href="#"><span>Join Us</span> <i class="bi bi-chevron-right"></i></a>
-            <ul>
-              <li><a href="#">Apply for position</a></li>
-              <li class="dropdown"><a href="#"><span>Community groups</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">WhatsApp Channel</a></li>
-
-                </ul>
-            </ul>
-          </li>
-
           <li class="dropdown"><a href="#"><span>Follow Us</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
+              <li><a href="https://tiktok.com/@nododsglobal" target="_blank">TikTok</a></li>
+              <li><a href="https://www.youtube.com/@nododsglobal" target="_blank">YouTube</a></li>
+              <li><a href="https://www.instagram.com/nododsglobal" target="_blank">Instagram</a></li>
+              <li><a href="https://twitter.com/nododsglobal" target="_blank">X/Twitter</a></li>
+              <li><a href="https://www.facebook.com/nododsglobal" target="_blank">Facebook</a></li>
+            </ul>
           </li>
-
-          <li><a href="https://tiktok.com/@nododsglobal" target="_blank">TikTok</a></li>
-          <li><a href="https://www.youtube.com/@nododsglobal" target="_blank">YouTube</a></li>
-          <li><a href="https://www.instagram.com/nododsglobal" target="_blank">Instagram</a></li>
-          <li><a href="https://twitter.com/nododsglobal" target="_blank">X/Twitter</a></li>
-          <li><a href="https://www.facebook.com/nododsglobal" target="_blank">Facebook</a></li>
-
-
-        </ul>
-        </li>
-        <li><a class="nav-link scrollto" href="#cta">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#cta">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -84,191 +64,69 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center justify-content-center">
     <div class="container position-relative">
-      <h1></h1>
-      <h2>Nodods is bitcoin-only treasury, that fuels the world with
-        bitcoin through accumulation and managing bitcoin.
-        We believe in the power of Bitcoin as a foundation for value creation and growth in all industries, fostering a
-        decentralized, transparent, and secure future</h2>
+      <div class="container">
+        <h1>Treasury</h1>
+        <div class="grid-container">
+          <div class="grid-item">
+            <h2>BTC Holdings</h2>
+            <p class="btc-amount" id="btcHoldings">0.00 BTC</p>
+            <p class="btc-value" id="btcValue" style="color: #83fd00;">R0.00</p>
+          </div>
+          <div class="grid-item">
+            <h2>Change (30d)</h2>
+            <p class="btc-change" id="change7d">+0.00 BTC</p>
+            <p class="btc-change-value" id="change7dValue" style="color: #83fd00;">R0.00</p>
+          </div>
+          <div class="grid-item">
+            <h2>Change (1y)</h2>
+            <p class="btc-change" id="change30d">+0.00 BTC</p>
+            <p class="btc-change-value" id="change30dValue" style="color: #83fd00;">R0.00</p>
+          </div>
+        </div>
+      </div>
     </div>
+    <script src="assets/js/bitcoin-holding.js"></script>
   </section><!-- End Hero -->
 
+
   <main id="main">
-
-
-
-
-
-
     <!-- ======= Core Values Section ======= -->
-    <section id="core-values" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Core Values</h2>
-          <p>We stand for long-term vision, innovation and inclusive
-            community. These core values guide every aspect of our
-            operations and decision-making processes.
-          </p>
-
-          <p>
-            We strive to be a global leader in the Bitcoin ecosystem, known for our long-term vision, innovation, and
-            community driven.
-          </p>
-
-          <p>
-            We stand for long-term vision, innovation and inclusive community. These core values guide every aspect of
-            our operations and decision-making processes.
-
-          </p>
-
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-blue">
-              <div class="icon">
-                <i class="bx bxl-dribbble"></i>
-              </div>
-              <h4><a href="">Long-term Vision</a></h4>
-              <p>Our focus is sustainable growth and long-term
-                value creation. We take the long-term view on
-
-                everything which filters through all our decision-
-                making.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
-            data-aos-delay="200">
-            <div class="icon-box iconbox-orange ">
-              <div class="icon">
-                <i class="bx bx-file"></i>
-              </div>
-              <h4><a href="">Innovation</a></h4>
-              <p>Innovation drives us forward, we strive to be at the
-                forefront of the blockchain revolution, pushing the
-                boundaries of what is possible.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
-            data-aos-delay="300">
-            <div class="icon-box iconbox-pink">
-              <div class="icon">
-                <i class="bx bx-tachometer"></i>
-              </div>
-              <h4><a href="">Community and Inclusivity</a></h4>
-              <p>Fostering a strong, and inclusive global community,
-                encouraging collaboration, education and passion.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Core Values Section -->
-
-
-
-
-
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Team</h2>
-          <p>Meet the team pushing the boundaries daily!</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/team-1.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href="https://www.facebook.com/6636345e/"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/6636345e/"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/6636345e/"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Thandile Nododile</h4>
-                <span>Founder & Chief Executive Officer</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/team-2.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href="https://www.facebook.com/esethuisipho.kofi"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/sethu_kofi/"><i class="bi bi-instagram"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Esethu Kofi</h4>
-                <span>Product Developer</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
       <div class="container">
-
         <div class="text-center">
-          <h3>Call To Action</h3>
-          <p> Be the first to know about our latest products and services </p>
-          <a class="cta-btn" href="https://forms.gle/r52tSoT3RTah1Ep78" target="_blank">Click here</a>
         </div>
-
       </div>
     </section><!-- End Cta Section -->
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Contact Us</h3>
             <p>
               Cape Town <br>
               South Africa <br>
-
-
               <strong>Email:</strong> nododsglobal@gmail.com<br>
             </p>
           </div>
-
           <div class="col-lg-2 col-md-6 footer-links">
-
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Nodods.com</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
-
           <div class="col-lg-3 col-md-6 footer-links">
-
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Carees</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Branding guide</a></li>
             </ul>
           </div>
-
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>COMING SOON!</h4>
             <p>Newsletter subscribing - Stay on the lookout</p>
@@ -276,18 +134,15 @@
               <input type="email" name="email" disabled><input type="submit" value="Your email" disabled>
             </form>
           </div>
-
         </div>
       </div>
     </div>
 
     <div class="container d-md-flex py-4">
-
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
           &copy; Copyright <strong><span>Nodods LTD/PTY</span></strong>. All Rights Reserved | 2024
         </div>
-
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
         <a href="https://tiktok.com/@nododsglobal" target="_blank" class="tiktok"><i class="bx bxl-tiktok"></i></a>
@@ -315,6 +170,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/bitcoin-holding.js"></script>
 
 </body>
 
