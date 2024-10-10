@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
       const btcRateZAR = data.bpi.ZAR.rate_float;
       const btcHoldings = 0.0011; // Example BTC holdings
       const btcValueZAR = btcRateZAR * btcHoldings;
-      const btcChange30d = 0.0011; // Example 7-day change
-      const btcChange1y = 0.0011; // Example 30-day change
+      const btcChange30d = 0.0016 // Example 7-day change
+      const btcChange1y = 0.0016; // Example 30-day change
 
       // Format Bitcoin value with commas
       const formattedBtcValue = btcValueZAR.toLocaleString("en-ZA", {
